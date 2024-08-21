@@ -1,14 +1,3 @@
-// a=[ 
-//     ["kunal", "Tomb", 45],
-//     ["Ramu", "Kaloo",52],
-//     ["Kapil",89.8,"shamm"]
-// ]
-// console.log(a[0][2])
-// a[0][2]=69
-// console.log(a)
-// // delete a[0][1]
-// console.log(a)
-// a.shift()
-// console.log(a)
 
-// a.unshift(["Kamal",38,"iknow"])
+// let time = new Date()
+// let year = now.getFullYear()
