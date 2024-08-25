@@ -1,6 +1,6 @@
 //ROUNDING PROPERTIES:
 
-console.log(Math.floor(8.9))
+console.log(Math.floor(8.9))    
 console.log(Math.trunc(8.9))
 
 console.log(Math.ceil(8.9))
