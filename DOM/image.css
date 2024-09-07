@@ -1,0 +1,25 @@
+.parent{
+
+    height: 100vh;
+    background-color: red;
+    width: 100vw;
+}
+img{
+    height: 100%;
+    width: 20%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.page1{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.page2{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
