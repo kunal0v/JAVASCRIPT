@@ -1,0 +1,25 @@
+body{
+    overflow-x: hidden;
+}
+.p1{
+    height: 100vh;
+    width: 100vw;
+    background-color:red;
+}
+.p2{
+    height: 100vh;
+    width: 100vw;
+    background-color:greenyellow;
+    }
+.p2 h1{
+    font-weight: 600;
+    font-size: 30vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.p3{
+    height: 100vh;
+    width: 100%;
+    background-color:blue;
+}
