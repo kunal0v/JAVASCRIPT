@@ -1,0 +1,46 @@
+gsap.to("#box",{
+    x:1000,
+    y:1000,
+    duration:3,
+    delay:1,
+    rotate:360,
+    backgroundColor:"orange",
+    borderRadius:"50%",
+    scale:2,
+    repeat:-1,
+    yoyo:true,
+})
+
+gsap.to("#box2",{
+    y:1000,
+    x:1000,
+    duration:3,
+    delay:2,
+    rotate:360,
+    backgroundColor:"white",
+    borderRadius:"50%",
+    scale:2,
+    repeat:-1,
+    yoyo:true,
+})
+gsap.to("#box3",{
+    y:1000,
+    x:1000,
+    duration:3,
+    delay:3,
+    rotate:360,
+    backgroundColor:"green",
+    borderRadius:"50%",
+    scale:2,
+    repeat:-1,
+    yoyo:true,
+})
+
+gsap.from("h1",{
+    color:"red",
+    duration:2,
+    delay:1,
+    y:1000,
+    stagger:-1,
+
+})
