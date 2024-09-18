@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(136, 207, 231);
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color:blue;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
