@@ -10,6 +10,16 @@ body{
     width: 100%;
     background-color: #111;
 }
+nav{
+    background-color: orange;
+    height:10vh;
+    width: 100vw;
+    font-size: larger;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 #box{
     height: 300px;
     width: 300px;
@@ -24,4 +34,8 @@ body{
     height: 300px;
     width: 300px;
     background-color:purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
