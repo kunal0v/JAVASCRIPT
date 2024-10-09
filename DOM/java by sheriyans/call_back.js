@@ -27,6 +27,5 @@ console.log(subResult);
 function multiply(a,b){
     return a*b;
 }
-
 const mulResult=calculate(3,2,multiply);
 console.log(mulResult);
