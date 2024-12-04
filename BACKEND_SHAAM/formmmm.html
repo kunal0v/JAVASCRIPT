@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getdata(){
+            let v=document.getElementById("names").value;
+            let d=document.getElementbyId("gen").value;
+            console.log(v,d);
+        }
+        getdata()
+    </script>
+</head>
+<body bgcolor="yellow">
+    <div>
+
+        <label for="name">Name</label>
+        <input id="names" type="text">
+        <br>
+        <label for="gender">Gender</label>
+        <br>
+        <label for="Male" id="gen" value="male">Male</label>
+        <input type="radio" name="gender">
+        <label for="female" id="gen" value="male">Female</label>
+        <input type="radio" name="gender">
+        <br>
+        <label for="">Graduation</label>
+        <select value="">
+            <option name="" id="">Msc</option>
+            <option name="" id="">Mtech</option>
+            <option name="" id="">Mca</option>
+            <option name="" id="">Mcom</option>
+        </select>
+        <label for ="">Hobbies</label>
+        <label for ="">Cricket</label>
+        <input type="Checkbox">
+        <label for="">Hobbies</label>
+        <input type="Checkbox">
+        <label for="">Golf</label>
+        <input type="Checkbox">
+        <br>
+        <label for="Date">Dob</label>
+        <input type="date">
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <button onclick="getdata()" type="submit">Submit</button>
+    </div>
+</body>
+</html>

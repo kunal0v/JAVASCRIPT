@@ -9,6 +9,7 @@ const obj={
     lastLoginDay:["monday","Sunday"],
     [mysym]:"ramesh1",
 }
+
 // console.log(obj.age)
 // console.log(obj.name)
 // console.log(obj["name"])
